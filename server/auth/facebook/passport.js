@@ -3,9 +3,9 @@ import {Strategy as FacebookStrategy} from 'passport-facebook';
 
 export function setup(User, config) {
   passport.use(new FacebookStrategy({
-    clientID: config.facebook.clientID,
-    clientSecret: config.facebook.clientSecret,
-    callbackURL: config.facebook.callbackURL,
+    clientID: '1747896762115996',
+    clientSecret: '0619be021e4b5046f110989e49616501',
+    callbackURL: 'http://localhost:9000/auth/facebook/callback',
     profileFields: [
       'displayName',
       'emails'

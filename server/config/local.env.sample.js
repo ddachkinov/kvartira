@@ -9,14 +9,14 @@ module.exports = {
   DOMAIN:           'http://localhost:9000',
   SESSION_SECRET:   'kvartira-secret',
 
-  FACEBOOK_ID:      'app-id',
-  FACEBOOK_SECRET:  'secret',
+  FACEBOOK_ID:      '1747896762115996',
+  FACEBOOK_SECRET:  '0619be021e4b5046f110989e49616501',
 
-  TWITTER_ID:       'app-id',
-  TWITTER_SECRET:   'secret',
+  TWITTER_ID:       'd20bA3HejqjNlxKO4pa3eMY6u',
+  TWITTER_SECRET:   'M5aKGimqHxwRpflJ5EInfrKw4iPNhcM2VTYXwASP5G9Py5v3RT',
 
-  GOOGLE_ID:        'app-id',
-  GOOGLE_SECRET:    'secret',
+  GOOGLE_ID:        '454142285445-1spem6ti2a9jpc41q58etniktmtlvtjb.apps.googleusercontent.com',
+  GOOGLE_SECRET:    'lbc-bwpLSuYagy59pV-Wfy-2',
 
   // Control debug level for modules using visionmedia/debug
   DEBUG: ''

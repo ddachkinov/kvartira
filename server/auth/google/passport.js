@@ -3,8 +3,8 @@ import {Strategy as GoogleStrategy} from 'passport-google-oauth20';
 
 export function setup(User, config) {
   passport.use(new GoogleStrategy({
-    clientID: config.google.clientID,
-    clientSecret: config.google.clientSecret,
+    clientID: '454142285445-1spem6ti2a9jpc41q58etniktmtlvtjb.apps.googleusercontent.com',
+    clientSecret: 'lbc-bwpLSuYagy59pV-Wfy-2',
     callbackURL: config.google.callbackURL
   },
   function(accessToken, refreshToken, profile, done) {
