@@ -7,21 +7,21 @@
     constructor($http, $scope, socket) {
       this.$http = $http;
       this.socket = socket;
-      this.awesomeThings = [];
+//      this.awesomeThings = [];
 
-      $scope.$on('$destroy', function() {
-        socket.unsyncUpdates('thing');
-      });
-    }
+//      $scope.$on('$destroy', function() {
+//        socket.unsyncUpdates('thing');
+//      });
+   }
 
-    $onInit() {
-      this.$http.get('/api/things')
-        .then(response => {
-          this.awesomeThings = response.data;
-          this.socket.syncUpdates('thing', this.awesomeThings);
-        });
-    }
-
+//    $onInit() {
+//      this.$http.get('/api/things')
+//        .then(response => {
+////          this.awesomeThings = response.data;
+//          this.socket.syncUpdates('thing', this.awesomeThings);
+//        });
+//    }
+/*
     addThing() {
       if (this.newThing) {
         this.$http.post('/api/things', {
@@ -34,6 +34,7 @@
     deleteThing(thing) {
       this.$http.delete('/api/things/' + thing._id);
     }
+*/
   }
 
   angular.module('kvartiraApp')

@@ -16,8 +16,8 @@ describe('Component: mainComponent', function() {
   beforeEach(inject(function(_$httpBackend_, $http, $componentController, $rootScope, $state,
     socket) {
     $httpBackend = _$httpBackend_;
-    $httpBackend.expectGET('/api/things')
-      .respond(['HTML5 Boilerplate', 'AngularJS', 'Karma', 'Express']);
+  //  $httpBackend.expectGET('/api/things')
+  //    .respond(['HTML5 Boilerplate', 'AngularJS', 'Karma', 'Express']);
 
     scope = $rootScope.$new();
     state = $state;
@@ -27,11 +27,12 @@ describe('Component: mainComponent', function() {
       socket: socket
     });
   }));
-
+/*
   it('should attach a list of things to the controller', function() {
     mainComponent.$onInit();
     $httpBackend.flush();
     expect(mainComponent.awesomeThings.length)
       .toBe(4);
   });
+  */
 });
