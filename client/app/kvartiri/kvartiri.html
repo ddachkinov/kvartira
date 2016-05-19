@@ -1,14 +1,23 @@
-  <div class="listings container">
-    <div class="row col-md-12" >
-      <div class="roombox" ng-repeat="room in rooms">
-        <div class="roomboxheader">
-            <!--<img ng-src="{{room.imgurl}}" alt="img" class="img-holder">-->
-            <div class="image-holder">
-              <p>hello</p>
-           </div>
-        <h2>{{room.name}}</h2>
-
-        </div>
+<div class="container ">
+      <div class="row roombox" ng-repeat="room in rooms">
+          <div class="boximg col-sm-4">
+            <img ng-src="{{room.imgurl}}" alt="img" class="img-holder">
+          </div>
+          <div class="boxdetails col-sm-6" >
+            <h3 class="room-title">{{room.name}}</h3>
+            <p>
+              <i class="fa fa-map-marker"></i>
+              {{room.city}}
+            </p>
+            <p>{{room.info}}</p>
+          </div>
+          <div class="pricedetails col-sm-2" >
+            <div class="pricein">
+              {{room.price}}.00 лв.
+            </div>
+            <div>
+              <button type="button" class="btn btn-warning">Продължи</button>
+            </div>
+          </div>
       </div>
-    </div>
   </div>

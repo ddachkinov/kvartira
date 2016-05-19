@@ -1,6 +1,6 @@
 .roombox{
-  border: 1px solid #e2e2e2;
-  background-color: #fff;
+  border: 1px solid #B5B3B3;
+  background-color: #F3F2F2;
   margin-bottom: 2rem;
   padding: 0.5rem;
   position: relative;
@@ -28,7 +28,29 @@
 }
 
 .img-holder{
-  height:208px;
-  background-position: center center;
-    background-size: cover;
+  border-right: 1px solid;
+    padding: 12px;
+    width: 100%;
+}
+
+.boximg{
+    margin-left: -21px;
+
+}
+
+.room-title{
+
+}
+
+.boxdetails{
+
+}
+
+.pricedetails{
+  text-align: center;
+  border-top: 1px solid;
+  margin-top: 8%;
+  font-size: x-large;
+  border-color: #DADADA;
+  padding-top: 19px;
 }
