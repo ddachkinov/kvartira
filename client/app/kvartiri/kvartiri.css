@@ -1,0 +1,34 @@
+.roombox{
+  border: 1px solid #e2e2e2;
+  background-color: #fff;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+  position: relative;
+  z-index: 1;
+  height: auto;
+}
+
+.roomboxheader{
+  padding: .5rem;
+  background-color: #f7f7f7;
+  margin-bottom: 1rem;
+}
+
+.roomboxfont h2{
+  font-size: 1.5rem;
+    margin-top: 0;
+    margin-bottom: .2rem;
+}
+
+.roombox-image{
+  position: absolute;
+  left: .5rem;
+  top: .5rem;
+  padding-right: 1rem!important;
+}
+
+.img-holder{
+  height:208px;
+  background-position: center center;
+    background-size: cover;
+}
